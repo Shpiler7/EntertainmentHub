@@ -1,0 +1,6 @@
+@EntertainmentHub.Api_HostAddress = http://localhost:5139
+
+GET {{EntertainmentHub.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
