@@ -4,6 +4,6 @@ namespace EntertainmentHub.Api.Repositories
 {
     public interface IGameRepository
     {
-        Task<Game> GetGameAsync(string isAny);
+        Task<Game?> GetGameAsync(string gameTitle);
     }
 }

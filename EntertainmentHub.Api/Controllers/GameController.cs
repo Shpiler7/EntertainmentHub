@@ -6,7 +6,7 @@ namespace EntertainmentHub.Api.Controllers
 {
     public class GameController(IGameRepository gameRepository) : ControllerBase
     {
-        public async Task<Game> GetGameAsync(IGameRepository mockRepositoryObject)
+        public async Task<ActionResult<Game>> GetGameAsync(string gameTitle)
         {
             throw new NotImplementedException();
         }
